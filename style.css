@@ -188,3 +188,7 @@ div {
 .pushable:active .front {
     transform: translateY(1px);
 }
+
+.pushable:focus:not(:focus-visible) {
+    outline: none;
+}
