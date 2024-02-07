@@ -12,6 +12,7 @@
   */
 * {
     margin: 0;
+    touch-action: manipulation;
 }
 /*
     Typographic tweaks!
