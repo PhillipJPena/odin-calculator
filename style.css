@@ -74,12 +74,18 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+button {
+    background-color: rgb(75, 75, 75);
+    border: 2px solid black;
+    margin: 0;
+    border-radius: 10px;
+}
+
 .outer-frame {
     display: flex;
     padding: 24px 8px;
     flex-direction: column;
     background: rgb(194, 194, 194);
-    height: 590px;
     width: 348px;
     border-radius: 10px;
     border: 2px solid black;
@@ -104,6 +110,7 @@ body {
     border-radius: 5px;
     border: 2px solid black;
     padding: 10px;
+    touch-action: manipulation;
 }
 
 .num-pad {
