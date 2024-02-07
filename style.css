@@ -43,7 +43,6 @@ button,
 textarea,
 select {
     font: inherit;
-    appearance: none;
 }
 /*
     7. Avoid text overflows
@@ -79,6 +78,7 @@ button {
     border: 2px solid black;
     margin: 0;
     border-radius: 10px;
+    aspect-ratio: 1/1;
 }
 
 .outer-frame {
@@ -122,5 +122,4 @@ button {
 }
 
 button {
-    aspect-ratio: 1/1;
 }
